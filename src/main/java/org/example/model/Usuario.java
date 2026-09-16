@@ -89,4 +89,19 @@ public class Usuario {
     public void setHabitos(String habitos) {
         this.habitos = habitos;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nome='" + nome + '\'' +
+                ", dt_nascimento=" + dt_nascimento +
+                ", email='" + email + '\'' +
+                ", senha='" + senha + '\'' +
+                ", genero=" + genero +
+                ", localizacao=" + localizacao +
+                ", bio='" + bio + '\'' +
+                ", curso='" + curso + '\'' +
+                ", habitos='" + habitos + '\'' +
+                '}';
+    }
 }
